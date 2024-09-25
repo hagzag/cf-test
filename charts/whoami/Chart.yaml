@@ -1,0 +1,9 @@
+apiVersion: v2
+name: 'whoami'
+description: A Helm chart for wrapping whoami
+version: 0.1.0
+appVersion: 0.1.0
+dependencies:
+  - name: 'whoami'
+    version: '5.1.2'
+    repository: "https://cowboysysop.github.io/charts/"
