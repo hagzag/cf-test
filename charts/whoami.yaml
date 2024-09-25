@@ -7,7 +7,7 @@ spec:
   runtime: helm
   helmMapping:
     properties:
-      replicas: replicaCount
+      replicas: whoami.replicaCount
   vendor: cloudfairy
   displayName: Whoami
   dependencies: []
